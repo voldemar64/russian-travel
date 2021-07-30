@@ -1,0 +1,10 @@
+.place__title {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #fff;
+  margin: 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}

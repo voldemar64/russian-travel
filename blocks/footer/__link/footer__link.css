@@ -1,0 +1,20 @@
+.footer__link {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #fff;
+  width: 50px;
+  margin-right: 18px;
+  transition: opacity .4s;
+}
+
+.footer__link:nth-child(5) {
+  margin-right: 0;
+}
+
+.footer__link:hover {
+  opacity: .8;
+  transition: opacity .3s;
+}

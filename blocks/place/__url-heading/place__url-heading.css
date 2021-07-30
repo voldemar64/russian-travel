@@ -1,0 +1,9 @@
+.place__url-heading {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  color: #aaa;
+  margin: 0;
+}
