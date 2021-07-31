@@ -4,8 +4,7 @@
   padding: 0;
   row-gap: 48px;
   column-gap: 40px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: min-content 1fr;
+  grid-template-columns: 460px 1fr;
 }
 
 .place:nth-child(5) {
