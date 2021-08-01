@@ -2,3 +2,12 @@
   grid-column: 2/3;
   grid-row: 2/3;
 }
+
+
+@media screen and (max-width: 767px) {
+  .place__paragraphs {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: 0 16px;
+  }
+}
