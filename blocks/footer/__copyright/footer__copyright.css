@@ -7,3 +7,9 @@
   text-align: right ;
   color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    text-align: left;
+  }
+}

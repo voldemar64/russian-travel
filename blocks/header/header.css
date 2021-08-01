@@ -7,3 +7,23 @@
   margin: 28px auto 56px;
   padding: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .header {
+    width: 928px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 288px;
+    margin: 16px auto 48px;
+  };
+}

@@ -10,11 +10,21 @@
   transition: opacity .4s;
 }
 
-.footer__link:nth-child(5) {
+.footer__link:last-of-type {
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .footer__link:hover {
   opacity: .8;
   transition: opacity .3s;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
 }

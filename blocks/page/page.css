@@ -9,6 +9,9 @@
   -moz-text-size-adjust: 100%;
 }
 
-@media screen and (width: 1279px) {
-
+@media screen and (max-width: 1279px) {
+  .page {
+    width: 100%;
+    margin: 0;
+  }
 }
