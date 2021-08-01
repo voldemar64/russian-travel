@@ -13,7 +13,7 @@
     <img src="./images/header__logo.svg" alt="logo" class="header__logo">
     <ul class="header__lang-list">
       <li>
-    <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
       </li>
       <li>
         <a href="#" class="header__lang-link header__lang-link_right">En</a>
@@ -25,8 +25,10 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/lead-polka.jpg" alt="от Пскова до Улан-Удэ" class="lead__image">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img src="./images/lead-polka.jpg" alt="от Пскова до Улан-Удэ" class="lead__image">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro">
@@ -64,18 +66,20 @@
     </div>
 
     <section class="photo-grid">
-      <div class="photo-grid__item"><img src="./images/photo-grid-train.jpg" alt="поезд" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-atharva-tulsi.jpg" alt="Атхарва тулси" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-tuman.jpg" alt="туман" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-arisa.jpg" alt="лёд" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-kondratiev.jpg" alt="пешеходный переход" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__image"></div>
-      <div class="photo-grid__item"><img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__image"></div>
+      <ul class="photo-grid__list">
+        <li class="photo-grid__item"><img src="./images/photo-grid-train.jpg" alt="поезд" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-atharva-tulsi.jpg" alt="Атхарва тулси" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-tuman.jpg" alt="туман" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-arisa.jpg" alt="лёд" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kondratiev.jpg" alt="пешеходный переход" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__image"></li>
+        <li class="photo-grid__item"><img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__image"></li>
+      </ul>
     </section>
 
     <section class="places">
